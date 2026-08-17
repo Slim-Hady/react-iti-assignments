@@ -1,0 +1,32 @@
+.card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
+.badge {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+}
+
+.author {
+  font-size: 0.9rem;
+}
+
+.price {
+  color: #7c3aed;
+}
+
+.inStock {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.outOfStock {
+  color: #dc2626;
+  font-weight: 600;
+}

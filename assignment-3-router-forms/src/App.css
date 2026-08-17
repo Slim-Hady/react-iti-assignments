@@ -1,0 +1,95 @@
+.layout {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.navbar-brand {
+  color: #7c3aed;
+  font-size: 1.3rem;
+}
+
+.navbar .nav-link {
+  color: #374151;
+}
+
+.navbar .nav-link.active {
+  color: #7c3aed;
+}
+
+.content {
+  flex: 1;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.page-title {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: #111827;
+  margin: 0 0 0.75rem;
+}
+
+.page-subtitle {
+  color: #6b7280;
+  font-size: 1.1rem;
+  margin: 0 0 1rem;
+}
+
+.feature-list {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 0;
+}
+
+.feature-item {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #7c3aed;
+  border-radius: 8px;
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 0.75rem;
+  font-weight: 500;
+}
+
+.contact-form {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 560px;
+}
+
+.contact-form .form-label {
+  font-weight: 600;
+}
+
+.not-found {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.not-found-code {
+  font-size: 6rem;
+  font-weight: 900;
+  color: #7c3aed;
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  color: #6b7280;
+  padding: 1.5rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+.footer p {
+  margin: 0;
+}
